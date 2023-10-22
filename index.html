@@ -6,6 +6,8 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script defer src ="index.js"></script>
+    <script defer src ="toodolist.js"></script>
+    <link rel="stylesheet" href="toodolist.css">
 </head>
 <body>
     <header>My Portdolio </header>
@@ -66,8 +68,20 @@
             </form>
         </div>
         </section>
+    <hr>
+        <section >
+        <div class="toodolist">
+            <h1>Toodolist</h1>
+            <div>
+                <input type="text" id="input-box">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-box">
+                <li>JS <input type="checkbox"> <button>x</button></li>
+            </ul>
+        </div>
+        </section>
     </main>
-
 
     <footer>Footer</footer>
 </body>
